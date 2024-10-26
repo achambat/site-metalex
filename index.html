@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <base href=".">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css"/>
+    <script src="assets/js/dropdown.js"></script>
+    <script src="assets/js/tri.js"></script>
+    <meta name="description" content="Réseau METALEX">
+    <title>Réseau METALEX</title>
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="assets/img/banner.jpg" alt="banner">
+        <div class="top-left">
+            <span class="title">Réseau METALEX</span>
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a class="current" title="Accueil" href=".">Accueil</a>
+            </td>
+            <td class="navigation">
+                <a title="Liste des membres" href="membres">Membres</a>
+            </td>
+            <td class="navigation">
+                <div class="dropdown">
+                    <a href="#" onclick="toggleDropdown()" class="dropdown-button">Activités</a>
+                        <div id="dropdown-content" class="dropdown-content">
+                            <a href="#">1er colloque international du réseau</a>
+                            <a href="#">GT Ressources bibliographiques</a>
+                        </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <h2>Présentation du réseau</h2> 
+       
+    <footer>
+        &copy; Réseau METALEX
+        &nbsp;|&nbsp; Créé par <a href="https://achambat.github.io/">Anaïs Chambat</a>
+    </footer>
+</body>
+</html>
